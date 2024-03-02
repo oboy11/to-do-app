@@ -2,6 +2,7 @@ from modules import functions
 import time
 
 now = time.strftime("%b %d, %Y %H:%M:%S")
+print("Time is below:")
 print("it is", now)
 
 while True:
