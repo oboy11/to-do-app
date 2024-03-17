@@ -1,7 +1,12 @@
 import time
-
 import functions
 import PySimpleGUI as sg
+import os
+
+if not os.path.exists("todos.txt"):
+    with open("todos.txt", "w") as file:
+        pass
+
 
 sg.theme("DarkPurple4")
 
