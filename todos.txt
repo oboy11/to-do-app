@@ -1,4 +1,2 @@
 naber
-hi
-norun
 clean the bag
